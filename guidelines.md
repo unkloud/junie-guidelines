@@ -1,4 +1,4 @@
-## General Guidelines:
+l## General Guidelines:
 
 - **No system component installations**.
 - Document AI coding agent contribution in the `README.md`.
@@ -23,7 +23,7 @@
 
 ## D Projects:
 
-- **Compiler Setup:**  
+- **Compiler Setup:**
   Activate D compilers with:
   ```bash
   source /home/ew/dlang/dmd-2.111.0/activate
@@ -46,3 +46,11 @@
 - **Code Style**:
     - Avoid abstractions unless absolutely required.
     - Minimize logging, print statements, and empty lines. Compact code is preferred.
+
+# Golang project
+* Follow best practices in Go.
+* Prefer standard libaray over 3rd party libraries
+* Don't use 3rd party libraries unless absolutely required. If some functionality is not available in the standard library, and the problem can be solved with less optimal code but less dependencies, then create a new package, and define clear interfaces.
+* Prefer libraies contributed by companies like:
+ * Google, Paypal, Meta, Microsoft, Alibaba, Huawei, Cloudflare, Docker, etc.
+ * Very reputable OSS communities
