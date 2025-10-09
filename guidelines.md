@@ -1,4 +1,4 @@
-l## General Guidelines:
+## General Guidelines:
 
 - **No system component installations**.
 - Document AI coding agent contribution in the `README.md`.
