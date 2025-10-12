@@ -49,8 +49,8 @@
 
 # Golang project
 * Follow best practices in Go.
-* Prefer standard libaray over 3rd party libraries
+* Prefer standard library over 3rd party libraries
 * Don't use 3rd party libraries unless absolutely required. If some functionality is not available in the standard library, and the problem can be solved with less optimal code but less dependencies, then create a new package, and define clear interfaces.
-* Prefer libraies contributed by companies like:
+* Prefer libraries contributed by companies like:
  * Google, Paypal, Meta, Microsoft, Alibaba, Huawei, Cloudflare, Docker, etc.
  * Very reputable OSS communities
