@@ -26,9 +26,9 @@
 - **Compiler Setup:**
   Activate D compilers with:
   ```bash
-  source /home/ew/dlang/dmd-2.111.0/activate
-  source /home/ew/dlang/gdc-4.8.5/activate
-  source /home/ew/dlang/ldc-1.41.0/activate
+  source $HOME/dlang/dmd-2.111.0/activate
+  source $HOME/dlang/gdc-4.8.5/activate
+  source $HOME/dlang/ldc-1.41.0/activate
   ```
   Use `deactivate` to turn off the compiler. Fail with an error if no compiler is available.
 - **Coding Practices**:
