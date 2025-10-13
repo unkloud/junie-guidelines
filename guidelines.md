@@ -8,9 +8,9 @@
   * Add simple unit tests to test complex functions
 * Test cases to cover essential functionalities; exhaustive test coverage isn’t required.
 * Failing early is preferable—provide clear error messages.
-* Update `.prompts/changelog.md` to summarize changes.
-* Document AI coding agent contribution in the `.prompts/changelog.md`.
-* Update `.prompts/design.md` for design changes, including reasoning for key components.
+* Update `.agent/changelog.md` to summarize changes.
+* Document AI coding agent contribution in the `.agent/changelog.md`.
+* Update `.agent/design.md` for design changes, including reasoning for key components.
 
 ## Python Scripts:
 
