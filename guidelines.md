@@ -2,12 +2,16 @@
 
 * **No system component installations**.
 * **DONT RUN ANY COMMAND WITH sudo**.
-* Keep code compact
-    * Avoid excessive blank lines
-    * Avoid printing out messages as separation of functional blocks, use functions instead
-* Limit comments to complex logics only. Break complex logic into smaller explainable components instead.
-    * Add simple comments to explain the intent of the complex logic.
-    * Add simple example code to show how to use complex functions
+* For each change prompted
+    * Come up with a execution plan, generate a check list for each steps
+    * Prompt for conformation and adjustment
+    * After confirmed, execute the plan step by step, follow the instructions as close as possible
+    * Keep code compact but maintain readability
+        * Avoid excessive blank lines while respecting language idioms (e.g. PEP 8)
+        * Avoid printing out messages as separation of functional blocks, use functions instead
+    * Limit comments to complex logics only. Break complex logic into smaller explainable components instead.
+        * Add simple comments to explain the intent of the complex logic.
+        * Add simple example code to show how to use complex functions
     * Add simple unit tests to test complex functions
 * Test cases to cover essential functionalities; exhaustive test coverage isn’t necessary
 * Failing early is preferable, also provide clear error messages
